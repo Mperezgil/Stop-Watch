@@ -1,0 +1,63 @@
+body {
+    background: rgb(253, 59, 59);
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100%;
+}
+
+video {
+    width: 100%;
+}
+
+img { 
+    display: block;
+    margin-left:auto;
+    margin-right:auto;
+    width: 500px;
+    border-radius: 200px;
+}
+
+.container {
+    width: 600px;
+    margin: 30px auto;
+    color: white;
+    text-align: center;
+    background-color:rgb(7, 5, 5);
+    padding: 1rem;
+    border-radius: 100px;
+    background-image: url("conbg.gif");
+    background-size: 650px;
+    background-repeat: no-repeat;
+}
+
+h1,
+h2,
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    font-size: 2.6rem;
+    text-transform: capitalize;
+    color: rgb(255, 255, 255);
+    mix-blend-mode:overlay;
+}
+#minutes,
+#seconds,
+#tens {
+    font-size: 2em;
+}
+
+button {
+    width: 150px;
+    height: 50px;
+    background: transparent;
+    color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+    margin-right: 10px;
+    outline: none;
+    font-size:2rem;
+}
+
+button:hover {
+    background: white;
+    color:rgb(219, 45, 45);
+}
